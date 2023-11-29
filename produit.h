@@ -29,7 +29,9 @@ public:
         bool supprimer(int);
         bool modifier(int);
         void exportToPDF();
-
+         int getCurrentQuantityForVerre();
+         int calculateTotalQuantity(const QString& type);
+         bool updateQuantity( int newQuantity);
 };
 
 #endif // PRODUIT_H
