@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>integration</class>
+ <widget class="QMainWindow" name="integration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>integration</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pb_equip">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>410</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 126, 54);
+background-color: rgb(252, 244, 208);
+alternate-background-color: rgb(252, 244, 208);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Equipement</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_produit">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>270</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 126, 54);
+background-color: rgb(252, 244, 208);
+alternate-background-color: rgb(252, 244, 208);
+font: 15pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Produit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_commande">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>340</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 126, 54);
+background-color: rgb(252, 244, 208);
+alternate-background-color: rgb(252, 244, 208);
+font: 13pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Commande</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_client">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>200</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 126, 54);
+background-color: rgb(252, 244, 208);
+alternate-background-color: rgb(252, 244, 208);
+font: 15pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Client</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_employe">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>130</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 126, 54);
+background-color: rgb(252, 244, 208);
+alternate-background-color: rgb(252, 244, 208);
+font: 15pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Employé</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-5</x>
+      <y>-15</y>
+      <width>811</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc">:/mariem/menuuuu_page-0001.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>pb_equip</zorder>
+   <zorder>pb_produit</zorder>
+   <zorder>pb_commande</zorder>
+   <zorder>pb_client</zorder>
+   <zorder>pb_employe</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc"/>
+ </resources>
+ <connections/>
+</ui>

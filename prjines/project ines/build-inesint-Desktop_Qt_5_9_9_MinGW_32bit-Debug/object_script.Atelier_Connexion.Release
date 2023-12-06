@@ -1,0 +1,12 @@
+INPUT(
+./release\arduino.o
+./release\client.o
+./release\lcdcontroller.o
+./release\main.o
+./release\connection.o
+./release\smtp.o
+./release\windowali.o
+./release\moc_lcdcontroller.o
+./release\moc_smtp.o
+./release\moc_windowali.o
+);

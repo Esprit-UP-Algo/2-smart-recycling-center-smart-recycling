@@ -1,0 +1,12 @@
+INPUT(
+./debug\arduino.o
+./debug\client.o
+./debug\lcdcontroller.o
+./debug\main.o
+./debug\connection.o
+./debug\smtp.o
+./debug\windowali.o
+./debug\moc_lcdcontroller.o
+./debug\moc_smtp.o
+./debug\moc_windowali.o
+);

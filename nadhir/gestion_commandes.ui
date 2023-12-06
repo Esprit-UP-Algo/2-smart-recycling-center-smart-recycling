@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gestion_commandes</class>
+ <widget class="QMainWindow" name="gestion_commandes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1094</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>gestion_commandes</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1071</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Ajouter commande</string>
+     </attribute>
+     <widget class="QPushButton" name="pb_ajouter">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>280</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/build-Atelier_Connexion-Desktop_Qt_5_9_9_MinGW_32bit-Debug/photos/add.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc">
+        <normaloff>:/mariem/ajout.png</normaloff>:/mariem/ajout.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>191</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;8514oem&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(76, 99, 19);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 8pt &quot;8514oem&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>NOMERO_DE_COMMANDE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>160</y>
+        <width>191</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;8514oem&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(76, 99, 19);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 8pt &quot;8514oem&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>DATE_DE_LIVRASION</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;8514oem&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(76, 99, 19);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 8pt &quot;8514oem&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>REFERENCE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>191</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;8514oem&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(76, 99, 19);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 8pt &quot;8514oem&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>TOTAL_DE_COMMANDE</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_numCom">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>120</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_ref">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>90</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_total">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>200</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>160</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_modifier">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>280</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/build-Atelier_Connexion-Desktop_Qt_5_9_9_MinGW_32bit-Debug/photos/modifier.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc">
+        <normaloff>:/mariem/modif.png</normaloff>:/mariem/modif.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_rechercher">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>370</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>180</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/build-Atelier_Connexion-Desktop_Qt_5_9_9_MinGW_32bit-Debug/photos/search.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_trier">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>280</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/build-Atelier_Connexion-Desktop_Qt_5_9_9_MinGW_32bit-Debug/photos/tri.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc">
+        <normaloff>:/mariem/tri.png</normaloff>:/mariem/tri.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;8514oem&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(76, 99, 19);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 8pt &quot;8514oem&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>NATIONALITE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pdf_commande">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>280</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/build-Atelier_Connexion-Desktop_Qt_5_9_9_MinGW_32bit-Debug/photos/pdf.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc">
+        <normaloff>:/mariem/pdf.png</normaloff>:/mariem/pdf.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="stat_commande">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>320</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/build-Atelier_Connexion-Desktop_Qt_5_9_9_MinGW_32bit-Debug/photos/stat.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc">
+        <normaloff>:/mariem/stat.png</normaloff>:/mariem/stat.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="le_nat">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>230</y>
+        <width>111</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="currentText">
+       <string>tunisiennes</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>tunisiennes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>francaises</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="pb_back4">
+      <property name="geometry">
+       <rect>
+        <x>952</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc">
+        <normaloff>:/mariem/bback-removebg-preview.png</normaloff>:/mariem/bback-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1071</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc">:/mariem/ajouuuutttt.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>370</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;8514oem&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(76, 99, 19);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 8pt &quot;8514oem&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Le recherche</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_numCom_sup">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>410</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_supprimer">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>440</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/build-Atelier_Connexion-Desktop_Qt_5_9_9_MinGW_32bit-Debug/photos/delete.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc">
+        <normaloff>:/mariem/supp.png</normaloff>:/mariem/supp.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>410</y>
+        <width>191</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;8514oem&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(76, 99, 19);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 8pt &quot;8514oem&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>NUMERO_DE_COMMANDE</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>50</y>
+        <width>701</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(76, 99, 19);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Affichage</string>
+       </attribute>
+       <widget class="QTableView" name="tab_commande">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>671</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Historique</string>
+       </attribute>
+       <widget class="QTreeView" name="tab_historique">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>671</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <zorder>label_9</zorder>
+     <zorder>pb_ajouter</zorder>
+     <zorder>label</zorder>
+     <zorder>label_2</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_4</zorder>
+     <zorder>le_numCom</zorder>
+     <zorder>le_ref</zorder>
+     <zorder>le_total</zorder>
+     <zorder>dateEdit</zorder>
+     <zorder>pb_modifier</zorder>
+     <zorder>le_rechercher</zorder>
+     <zorder>label_6</zorder>
+     <zorder>pb_trier</zorder>
+     <zorder>label_7</zorder>
+     <zorder>pdf_commande</zorder>
+     <zorder>stat_commande</zorder>
+     <zorder>le_nat</zorder>
+     <zorder>pb_back4</zorder>
+     <zorder>label_8</zorder>
+     <zorder>le_numCom_sup</zorder>
+     <zorder>pb_supprimer</zorder>
+     <zorder>label_10</zorder>
+     <zorder>tabWidget_2</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1094</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../mariem/Atelier_Connexion_/Atelier_Connexion/mariem.qrc"/>
+ </resources>
+ <connections/>
+</ui>

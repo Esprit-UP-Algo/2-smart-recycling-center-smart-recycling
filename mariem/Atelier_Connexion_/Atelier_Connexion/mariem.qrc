@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mariem/ajouuuutttt.jpg</file>
+        <file>mariem/ajout.png</file>
+        <file>mariem/modif.png</file>
+        <file>mariem/pdf.png</file>
+        <file>mariem/recherche.png</file>
+        <file>mariem/refresh.png</file>
+        <file>mariem/stat.png</file>
+        <file>mariem/supp.png</file>
+        <file>mariem/tri.png</file>
+        <file>mariem/camion.jpg</file>
+        <file>mariem/menuuuu_page-0001.jpg</file>
+        <file>mariem/logine1_page-0001.jpg</file>
+        <file>mariem/logo_login-removebg-preview (1).png</file>
+        <file>mariem/bback-removebg-preview.png</file>
+    </qresource>
+</RCC>
